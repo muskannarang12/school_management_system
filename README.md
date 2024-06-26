@@ -80,7 +80,7 @@ status (ENUM: 'present', 'absent')
 Clone the repository to your local machine:
 
 bash
-git clone https://github.com/muskannarang12/school-management-system.git
+git clone https://github.com/muskannarang12/school_management_system.git
 Move into the project directory:
 
 bash
