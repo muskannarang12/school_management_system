@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Management</title>
+</head>
+<body>
+    <h1>Grade Management</h1>
+    <a href="grades.php?action=assign">Assign New Grade</a>
+    <br><br>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Student ID</th>
+            <th>Class ID</th>
+            <th>Grade</th>
+        </tr>
+        <?php include 'grades.php'; ?>
+    </table>
+</body>
+</html>

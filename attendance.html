@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Management</title>
+</head>
+<body>
+    <h1>Attendance Management</h1>
+    <a href="attendance.php?action=mark">Mark Attendance</a>
+    <br><br>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Student ID</th>
+            <th>Date</th>
+            <th>Status</th>
+        </tr>
+        <?php include 'attendance.php'; ?>
+    </table>
+</body>
+</html>
